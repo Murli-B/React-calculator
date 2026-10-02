@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="920" viewBox="0 0 1440 920" role="img" aria-labelledby="title description">
+  <title id="title">Tally calculator preview</title>
+  <desc id="description">A warm, minimal calculator landing page with a dark green calculator card and lime accent buttons.</desc>
+  <defs>
+    <radialGradient id="backgroundGlow" cx="82%" cy="16%" r="42%">
+      <stop offset="0" stop-color="#e4edcf"/>
+      <stop offset="1" stop-color="#f5f4ef" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2922"/>
+      <stop offset="1" stop-color="#121a16"/>
+    </linearGradient>
+    <linearGradient id="display" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1511"/>
+      <stop offset="1" stop-color="#19241e"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#29372f"/>
+      <stop offset="1" stop-color="#243129"/>
+    </linearGradient>
+    <linearGradient id="equals" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f49b"/>
+      <stop offset="1" stop-color="#c4e77c"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="#314e38" opacity="0.22"/>
+    </pattern>
+    <filter id="cardShadow" x="-25%" y="-20%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#1d2f23" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="920" fill="#f5f4ef"/>
+  <rect width="1440" height="920" fill="url(#backgroundGlow)"/>
+  <rect width="1440" height="920" fill="url(#dots)" opacity="0.35"/>
+  <circle cx="1090" cy="235" r="195" fill="none" stroke="#547753" stroke-opacity="0.08"/>
+  <circle cx="1090" cy="235" r="229" fill="none" stroke="#547753" stroke-opacity="0.045"/>
+  <circle cx="1090" cy="235" r="263" fill="none" stroke="#547753" stroke-opacity="0.035"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <!-- Brand header -->
+    <rect x="160" y="30" width="32" height="32" rx="9" fill="#d3ef8e"/>
+    <path d="M168 39h16m-8-5v10m-8 8h5m5 0h5" fill="none" stroke="#18221d" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="201" y="54" fill="#202923" font-size="23" font-weight="750" letter-spacing="-1.6">tally<tspan fill="#325e44">.</tspan></text>
+    <circle cx="1122" cy="46" r="3.5" fill="#7e9f68"/>
+    <circle cx="1122" cy="46" r="7" fill="none" stroke="#7e9f68" stroke-opacity="0.2"/>
+    <text x="1137" y="50" fill="#69736a" font-size="10" font-weight="700" letter-spacing="1.7">A LITTLE TOOL FOR EVERYDAY MATH</text>
+    <line x1="160" y1="92" x2="1280" y2="92" stroke="#2b3a30" stroke-opacity="0.13"/>
+
+    <!-- Hero copy -->
+    <circle cx="175" cy="279" r="14" fill="none" stroke="#325e44" stroke-opacity="0.28"/>
+    <text x="175" y="282" text-anchor="middle" fill="#325e44" font-size="9" font-weight="700">01</text>
+    <text x="199" y="283" fill="#68766a" font-size="10" font-weight="700" letter-spacing="1.6">MADE FOR THE EVERYDAY</text>
+    <text x="160" y="382" fill="#202923" font-size="86" font-weight="560" letter-spacing="-7.5">Make room</text>
+    <text x="160" y="468" fill="#325e44" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-style="italic" letter-spacing="-5">for clarity.</text>
+    <text x="160" y="526" fill="#687168" font-size="16">A calm, capable calculator for quick sums, clear thinking,</text>
+    <text x="160" y="551" fill="#687168" font-size="16">and getting on with your day.</text>
+
+    <line x1="160" y1="644" x2="618" y2="644" stroke="#2b3a30" stroke-opacity="0.13"/>
+    <g fill="#93a08f" font-size="9" font-weight="700" letter-spacing="0.6">
+      <text x="160" y="674">01</text><text x="317" y="674">02</text><text x="477" y="674">03</text>
+    </g>
+    <g fill="#566157" font-size="11" font-weight="600">
+      <text x="179" y="675">Keyboard</text><text x="179" y="691">friendly</text>
+      <text x="336" y="675">Instant answer</text><text x="336" y="691">preview</text>
+      <text x="496" y="675">Works on</text><text x="496" y="691">any screen</text>
+    </g>
+
+    <!-- Calculator card -->
+    <g filter="url(#cardShadow)">
+      <rect x="856" y="145" width="424" height="642" rx="28" fill="url(#card)" stroke="#e8f5e1" stroke-opacity="0.08"/>
+    </g>
+    <g>
+      <text x="881" y="178" fill="#92a197" font-size="9" font-weight="700" letter-spacing="1.7">YOUR EVERYDAY TOOL</text>
+      <text x="881" y="203" fill="#f2f5ed" font-size="18" font-weight="570" letter-spacing="-0.5">Calculator</text>
+      <rect x="1152" y="171" width="103" height="27" rx="14" fill="none" stroke="#e2f0dc" stroke-opacity="0.12"/>
+      <circle cx="1166" cy="184.5" r="3" fill="#d3ef8e"/>
+      <text x="1175" y="188" fill="#b6c3b8" font-size="8" font-weight="700" letter-spacing="1">STANDARD</text>
+
+      <rect x="881" y="224" width="374" height="139" rx="18" fill="url(#display)" stroke="#eaf5e5" stroke-opacity="0.06"/>
+      <text x="898" y="248" fill="#86958a" font-size="8" font-weight="700" letter-spacing="1.3">CURRENT EXPRESSION</text>
+      <circle cx="1190" cy="245.5" r="2.5" fill="#a9d47c"/>
+      <text x="1198" y="249" fill="#96a697" font-size="8" font-weight="700" letter-spacing="0.8">READY</text>
+      <text x="1238" y="307" text-anchor="end" fill="#f6f8f2" font-size="43" font-weight="430" letter-spacing="-3">0</text>
+      <line x1="898" y1="327" x2="1238" y2="327" stroke="#eaf5e5" stroke-opacity="0.07"/>
+      <text x="898" y="348" fill="#86958a" font-size="8" font-weight="700" letter-spacing="1.2">LIVE PREVIEW</text>
+      <text x="1238" y="348" text-anchor="end" fill="#86958a" font-size="13" font-weight="600">—</text>
+
+      <!-- Keypad: each key matches the app's four-column layout -->
+      <g font-size="17" font-weight="550" text-anchor="middle" dominant-baseline="middle">
+        <g fill="url(#key)" stroke="#f0f7ec" stroke-opacity="0.055">
+          <rect x="881" y="380" width="86" height="59" rx="15" fill="#4a3834" stroke="#e4ac9f" stroke-opacity="0.12"/>
+          <rect x="977" y="380" width="86" height="59" rx="15"/>
+          <rect x="1073" y="380" width="86" height="59" rx="15"/>
+          <rect x="1169" y="380" width="86" height="59" rx="15"/>
+
+          <rect x="881" y="449" width="86" height="59" rx="15"/>
+          <rect x="977" y="449" width="86" height="59" rx="15"/>
+          <rect x="1073" y="449" width="86" height="59" rx="15"/>
+          <rect x="1169" y="449" width="86" height="59" rx="15"/>
+
+          <rect x="881" y="518" width="86" height="59" rx="15"/>
+          <rect x="977" y="518" width="86" height="59" rx="15"/>
+          <rect x="1073" y="518" width="86" height="59" rx="15"/>
+          <rect x="1169" y="518" width="86" height="59" rx="15"/>
+
+          <rect x="881" y="587" width="86" height="59" rx="15"/>
+          <rect x="977" y="587" width="86" height="59" rx="15"/>
+          <rect x="1073" y="587" width="86" height="59" rx="15"/>
+          <rect x="1169" y="587" width="86" height="59" rx="15"/>
+
+          <rect x="881" y="656" width="86" height="59" rx="15"/>
+          <rect x="977" y="656" width="86" height="59" rx="15"/>
+          <rect x="1073" y="656" width="86" height="59" rx="15"/>
+          <rect x="1169" y="656" width="86" height="59" rx="15" fill="url(#equals)" stroke="#ddf6a5" stroke-opacity="0.65"/>
+        </g>
+        <g fill="#e5b4a8" font-size="12" font-weight="750" letter-spacing="0.7"><text x="924" y="410">AC</text></g>
+        <g fill="#c7d2c8" font-size="12" font-weight="650"><text x="1020" y="410">DEL</text><text x="1116" y="410">%</text></g>
+        <g fill="#d3ef8e" font-size="21" font-weight="500"><text x="1212" y="410">÷</text></g>
+        <g fill="#eef3eb">
+          <text x="924" y="479">7</text><text x="1020" y="479">8</text><text x="1116" y="479">9</text>
+          <text x="924" y="548">4</text><text x="1020" y="548">5</text><text x="1116" y="548">6</text>
+          <text x="924" y="617">1</text><text x="1020" y="617">2</text><text x="1116" y="617">3</text>
+          <text x="924" y="686">0</text><text x="1020" y="686">±</text><text x="1116" y="686">.</text>
+        </g>
+        <g fill="#d3ef8e" font-size="21" font-weight="500">
+          <text x="1212" y="479">×</text><text x="1212" y="548">−</text><text x="1212" y="617">+</text>
+        </g>
+        <text x="1212" y="686" fill="#1c291f" font-size="21" font-weight="700">=</text>
+      </g>
+      <text x="905" y="755" fill="#d3ef8e" font-size="13">↵</text>
+      <text x="923" y="755" fill="#8f9c91" font-size="9">Tip: press</text>
+      <rect x="970" y="743" width="38" height="17" rx="4" fill="none" stroke="#e4efde" stroke-opacity="0.13"/>
+      <text x="989" y="755" text-anchor="middle" fill="#bbc6bb" font-size="8" font-weight="700">ENTER</text>
+      <text x="1016" y="755" fill="#8f9c91" font-size="9">to calculate</text>
+      <text x="1086" y="755" fill="#607065" font-size="10">·</text>
+      <rect x="1101" y="743" width="28" height="17" rx="4" fill="none" stroke="#e4efde" stroke-opacity="0.13"/>
+      <text x="1115" y="755" text-anchor="middle" fill="#bbc6bb" font-size="8" font-weight="700">ESC</text>
+      <text x="1137" y="755" fill="#8f9c91" font-size="9">clears</text>
+    </g>
+
+    <!-- Footer -->
+    <line x1="160" y1="842" x2="1280" y2="842" stroke="#2b3a30" stroke-opacity="0.13"/>
+    <text x="160" y="876" fill="#778078" font-size="11">Thoughtfully simple, by design.</text>
+    <text x="1280" y="876" text-anchor="end" fill="#778078" font-size="11">Built with React <tspan fill="#93a58e">·</tspan> No sign-up, no distractions.</text>
+  </g>
+</svg>
